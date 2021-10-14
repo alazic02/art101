@@ -1,0 +1,68 @@
+h2 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+
+h3 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+
+h4 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+
+h5 {
+    color: DarkSlateGray;
+    font-family: verdana;
+}
+
+
+
+p {
+    font-family: "verdana";
+    text-indent: "30px";
+    margin-left: "15px";
+}
+
+#challenges {
+    background-color: LavenderBlush;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid LightCoral;
+}
+
+#problems {
+    background-color: lavender;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid MediumSlateBlue;
+}
+
+#results {
+    background-color: LightCyan;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid MediumTurquoise;
+}
+
+#task1 {
+    background-color: MintCream;
+    padding: 20px;
+    margin: 20px;
+    border: 3px dashed MediumTurquoise;
+}
+
+#task2 {
+    background-color: MintCream;
+    padding: 20px;
+    margin: 20px;
+    border: 3px dashed MediumTurquoise;
+}
