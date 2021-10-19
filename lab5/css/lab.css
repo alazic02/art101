@@ -1,3 +1,8 @@
+body {
+  background-color: LightCoral
+}
+
+
 h2 {
     color: Black;
     font-family: verdana;
@@ -28,33 +33,21 @@ img {
 }
 
 
-#challenges {
+#content {
     background-color: LavenderBlush;
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
-    border: 5px solid LightCoral;
-}
-
-#problems {
-    background-color: lavender;
-    padding: 20px;
-    margin: 20px;
-    border: 5px solid MediumSlateBlue;
-}
-
-#results {
-    background-color: LightCyan;
-    padding: 20px;
-    margin: 20px;
-    border: 5px solid MediumTurquoise;
+    border: 5px dashed LightCoral;
 }
 
 
 #output {
     width: 150px;
-    background-color: white;
+    background-color: Orange;
+    opacity: 0.7;
     padding: 5px;
 
     text-align: center;
+    text-shadow: Black;
     font-family: verdana;
 }
