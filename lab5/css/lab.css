@@ -1,0 +1,60 @@
+h2 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+h3 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+h4 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+p {
+    font-family: "verdana";
+    text-indent: "30px";
+    margin-left: "15px";
+}
+
+img {
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+
+#challenges {
+    background-color: LavenderBlush;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid LightCoral;
+}
+
+#problems {
+    background-color: lavender;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid MediumSlateBlue;
+}
+
+#results {
+    background-color: LightCyan;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid MediumTurquoise;
+}
+
+
+#output {
+    width: 150px;
+    background-color: white;
+    padding: 5px;
+
+    text-align: center;
+    font-family: verdana;
+}
