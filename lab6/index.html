@@ -6,46 +6,48 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-<div id="content">
-	<h2>Lab 6 - Arrays and Objects</h2>
+	<div id="content">
+		<h2>Lab 6 - Arrays and Objects</h2>
 
-	<!-- lab task 3 -->
-	<div id="challenges">
-		<h3>Challenges</h3>
-		<p>One small challenge we faced was getting the syntax correct when using
-			 the console. There were some commands that didn't work the first time
-		 	 when trying to declare some components of the myMainRide object.</p>
-		<p>Another challenge was formatting the myTransport array when printing. We
-			 ended up calling each array element to be printed individually with
-			 hand-written spacing between the elements because the example statement
-			 in the assignment did not add spaces when called with <i>document.writeln()</i>.</p>
+		<!-- pic of red honda civic; img source:
+		https://www.cnet.com/roadshow/reviews/2012-honda-civic-cpe-review/ -->
+		<div id="carimage">
+			<img src="img/red_honda.png" alt="red honda civic" width="400">
+		</div>
+
+		<!-- lab task 3 -->
+		<div id="challenges">
+			<h3>Challenges</h3>
+			<p>One small challenge we faced was getting the syntax correct when using
+				 the console. There were some commands that didn't work the first time
+			 	 when trying to declare some components of the myMainRide object.</p>
+			<p>Another challenge was formatting the myTransport array when printing. We
+				 ended up calling each array element to be printed individually with
+				 hand-written spacing between the elements because the example statement
+				 in the assignment did not add spaces when called with <i>document.writeln()</i>.</p>
+		</div>
+
+		<div id="problems">
+			<h3>Problems</h3>
+			<p>When using the console, we saw that the <b>name:</b><i>value</i> pair of
+				 "year" had to be defined in the myMainRide object before the "year"
+			 	 number could be called as <i>myMainRide.year</i> to calculate the car's
+				 "age". Therefore, just in case, we defined the "year" when declaring the
+				 myMainRide object, and defined the "age" calculation separately.</p>
+		</div>
+
+		<div id="results">
+			<h3>Results</h3>
+			<p>Below is the printed results of the lab.js file. It first prints out
+				 the myTransport array in a list form, and then prints out the data
+			 	 held in the myMainRide object:</p>
+
+				<!-- prints lab.js output -->
+				<h4>Script Output</h4>
+				<div id="output">
+					<script type="text/javascript" src="js/lab.js"></script>
+				</div>
+		</div>
 	</div>
-
-	<div id="problems">
-		<h3>Problems</h3>
-		<p>When using the console, we saw that the <b>name:</b><i>value</i> pair of
-			 "year" had to be defined in the myMainRide object before the "year"
-		 	 number could be called as <i>myMainRide.year</i> to calculate the car's
-			 "age". Therefore, just in case, we defined the "year" when declaring the
-			 myMainRide object, and defined the "age" calculation separately.</p>
-	</div>
-
-	<div id="results">
-		<h3>Results</h3>
-		<p>Below is the printed results of the lab.js file. It first prints out
-			 the myTransport array in a list form, and then prints out the data
-		 	 held in the myMainRide object:</p>
-
-			<!-- prints lab.js output -->
-			<h4>Script Output</h4>
-			<div id="output">
-				<script type="text/javascript" src="js/lab.js"></script>
-			</div>
-
-			<!-- pic of red honda civic; img source:
-			https://www.cnet.com/roadshow/reviews/2012-honda-civic-cpe-review/ -->
-			<img src="img/red_honda.png" alt="red honda civic" width="600">
-	</div>
-</div>
 </body>
 </html>

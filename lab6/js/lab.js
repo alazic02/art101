@@ -16,7 +16,7 @@ var myMainRide = {
   year: 2012
 };
 //add age to myMainRide obj
-myMainRide.age = 2021 - myMainRide.year;
+myMainRide.age = 2021 - myMainRide.year + " years old";
 
 //output
   //prints myTransport array
