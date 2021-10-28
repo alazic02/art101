@@ -1,0 +1,36 @@
+body {
+  background-color: Thistle;
+}
+
+
+h2 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+h3 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+h4 {
+    color: Black;
+    font-family: verdana;
+}
+
+
+p {
+    font-family: "verdana";
+    text-indent: "30px";
+    margin-left: "15px";
+}
+
+
+#content {
+    background-color: Azure;
+    padding: 50px;
+    margin: 20px;
+    border: 5px dashed DarkTurquoise;
+}
