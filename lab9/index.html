@@ -14,30 +14,54 @@
     <!-- lab task 1 -->
     <div id="challenges">
       <h3>Challenges</h3>
-      <p>waaaaaaaaaaaaaaaaaaaaaaaaaaah</p>
+      <p>We faced quite a few challenges when completing this lab, mostly
+         related to getting the new elements we created in the lab.js to
+         properly append to the 'output' div in the index.html. Because there
+         were no screenshots in the lab instructions, it was even more difficult
+         to troubleshoot and fix.</p>
     </div>
 
     <div id="problems">
       <h3>Problems</h3>
-      <p>poopoopeepee</p>
+      <p>In section, we went over a solution for appending the new elements
+         that involved making the <i>new1El</i> and <i>new2El</i> variables
+         assigned to the new elements into text nodes, which were then able to
+         be appended onto the 'output' div. This worked because the error we were
+         getting was an incompatible node type error. The HTML was not able to
+         recognize the variables because they couldn't be read. However, the
+         solution was a lot simpler than creating two new varibles.</p>
+      <p>In order to be able to append the variables properly without being
+         turned into text nodes, we had to use the <i>innerHTML</i> method. By
+         using this and writing our new elements as <i>new1El.innerHTML = </i>,
+         it accesses the inside of the element we made (in this case a new
+         paragraph) and added the text there. Doing it this way made it so that
+         the element was now fully readible for the index.html, and so could be
+         appended correctly to the 'output' div.</p>
     </div>
 
     <div id="results">
       <h3>Results</h3>
-      <p>peepeepoopoo</p>
 
-      <!-- screenshot of lab.js console print lines -->
-      <!-- <div id="consoleimg">
-        <img src="img/console_screen.png" alt="console screenshot">
-      </div> -->
+      <!-- link to lab.js file -->
+      <div id="lablink">
+        <p>This link opens the lab.js source code:</p>
+        <p><a href="js/lab.js">Lab 9 JavaScript file</a></p>
+      </div>
+
+      <p>Below are the new paragraph elements we made in our lab.js file, and
+         appended onto the 'output' div. In the index.html file, the div has no
+         content.</p>
     </div>
 
-    <!-- prints output from lab.js file -->
+    <!-- output div for access in lab.js -->
+    <h4>JavaScript Output</h4>
     <div id="output">
     </div>
 
-    <!-- link to lab.js file -->
-    <a href="js/lab.js">Lab 9 JavaScript file</a>
+    <!-- IMG -->
+    <!-- <div id="TODO">
+      <img src="img/TODO" alt="TODO">
+    </div> -->
 
   </div>
 </body>
