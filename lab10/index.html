@@ -14,40 +14,57 @@
     <!-- lab task 1 -->
     <div id="challenges">
       <h3>Challenges</h3>
-      <p>nothing nothing</p>
+      <p>I didn't face many challenges while completing this lab (other than
+				 my crippling procrastination...) as I was able to use the class slides
+				 and work from Lab 9 as references on how to properly attach the event
+			 	 listener to the button and make the results of the sorting function
+			 	 appear in the 'output' div.</p>
     </div>
 
     <div id="problems">
       <h3>Problems</h3>
-      <p>so many problems</p>
+      <p>There weren't many problems that we encountered, aside from a few errors
+				 that came up when we were testing the button's functions. We ended up
+			 	 placing all of the active parts of the lab (sorting the input, making
+				 a new 'p' element, and appending it to the 'output' div) inside of the
+			 	 button's eventListener function. If we didn't do that, it would give us
+			 	 errors because variables inside of that function couldn't be accessed
+			 	 outside of it since they were not global variables. I assume a more
+				 efficient way to do it would be to have some global variables, but
+			 	 since the input and sorted name didn't need to be accessed anywhere else
+			 	 on the page, it didn't matter much for the purpose of this lab.</p>
     </div>
 
     <div id="results">
       <h3>Results</h3>
-
-      <!-- link to lab.js file -->
-      <div id="lablink">
-        <p>This link opens the lab.js source code:</p>
-        <p><a href="js/lab.js">Lab 10 JavaScript file</a></p>
-      </div>
-
-      <p>weeweewee</p>
+			<p>Below are the results of the lab. Input your name (or any string of
+				 letters and numbers), click the button, and the input will be reordered
+			 	 alphabetically as is the default for the array sort function. This new
+			 	 array will then be added to the 'output' div in the index.html through
+			 	 the appendChild function. If you open the console, you will be able to
+			 	 see the newly-populated div printed!</p>
     </div>
 
-    <!-- output div for access in lab.js -->
+    <!-- input form field -->
+    <p><h4>Input your name:</h4>
+    <input type="text" id="user-name"></input></p>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text -->
+
+    <!-- button to reorder user's input name/string -->
+    <p><button id="my-button">
+      Click to reorder
+    </button></p>
+
+		<!-- output div for access in lab.js -->
     <h4>Output</h4>
     <div id="output">
     </div>
 
-    <!-- input form field -->
-    <p>Input your name:
-    <input type="text" id="username" value="type over me!"></input></p>
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text -->
-
-    <!-- button to print name or whatever it is -->
-    <p><button id="mybutton">
-      This is certainly a button.
-    </button></p>
+		<!-- link to lab.js file -->
+		<div id="lablink">
+			<p>This link opens the lab.js source code:</p>
+			<p><a href="js/lab.js">Lab 10 JavaScript file</a></p>
+		</div>
 
     <!-- IMG -->
     <!-- <div id="TODO">

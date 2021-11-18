@@ -1,36 +1,41 @@
+/*palette from: https://www.schemecolor.com/pastel-green-red-and-blue.php*/
 body {
-  background-color: #DC143C;
+  background-color: #E4F6DF;
 }
 
 
 h2 {
-    color: #993300;
-    font-family: Tahoma;
+  color: #60915E;
+  font-family: Tahoma;
 }
 
 
 h3 {
-    color: #993300;
-    font-family: Tahoma;
+  color: #60915E;
+  font-family: Tahoma;
 }
 
 
 h4 {
-    color: #993300;
-    font-family: Tahoma;
+  color: #60915E;
+  font-family: Tahoma;
 }
 
 
 p {
-    font-family: "Tahoma";
-    text-indent: "30px";
-    margin-left: "15px";
+  font-family: "Tahoma";
+  text-indent: "30px";
+  margin-left: "15px";
 }
 
 
 #content {
-    background-color: #fffff2;
-    padding: 50px;
-    margin: 20px;
-    border: 15px dashed #DAA520;
+  background-color: #F9E5EA;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid #BEDEED;
+}
+
+#output {
+  background-color: #E1EFF5;
 }
