@@ -1,0 +1,49 @@
+/*palette from: https://www.schemecolor.com/shanghai.php*/
+body {
+  background-color: #7A2372;
+}
+
+
+h2 {
+  color: #A84244;
+  font-family: Tahoma;
+}
+
+
+h3 {
+  color: #A84244;
+  font-family: Tahoma;
+}
+
+
+h4 {
+  color: #A84244;
+  font-family: Tahoma;
+}
+
+
+p {
+  font-family: "Tahoma";
+  text-indent: "30px";
+  margin-left: "15px";
+}
+
+
+#content {
+  background-color: #F8BF70;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid #DA386A;
+}
+
+#output {
+  background-color: #E1EFF5;
+}
+
+.special {
+  background-color: #EBD8E8;
+  border: 5px double #E68731;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
