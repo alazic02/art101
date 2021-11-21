@@ -45,3 +45,6 @@
     // toggle class 'special' for 'results' div
     resEl.toggleClass("special");
   });
+
+// change 'lablink' div to have class 'special'
+$("#lablink").addClass("special");
