@@ -46,5 +46,6 @@
     resEl.toggleClass("special");
   });
 
+
 // change 'lablink' div to have class 'special'
 $("#lablink").addClass("special");
