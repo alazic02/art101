@@ -1,0 +1,44 @@
+/*palette from: https://www.schemecolor.com/unicorn-dream.php*/
+body {
+  background-color: #F9B3DE;
+}
+
+
+h2 {
+  color: #8E5CC2;
+  font-family: Tahoma;
+}
+
+
+h3 {
+  color: #8E5CC2;
+  font-family: Tahoma;
+}
+
+
+h4 {
+  color: #8E5CC2;
+  font-family: Tahoma;
+}
+
+
+p {
+  font-family: "Tahoma";
+  color: #383838;
+  text-indent: "30px";
+  margin-left: "15px";
+}
+
+
+#content {
+  background-color: #FFF2B8;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid #68CBB9;
+}
+
+#output {
+  background-color: #FAE3FF;
+  padding: 10px;
+  border-radius: 5px;
+}

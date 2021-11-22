@@ -2,7 +2,10 @@
 <html>
 <head>
 	<title>Lab 12 - Conditionals</title>
-  <script src="js/lab.js" defer></script> <!-- calls JavaScript file at page load -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+					integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+					crossorigin="anonymous"></script> <!-- calls jQuery (minified) -->
+	<script src="js/lab.js" defer></script> <!-- calls JavaScript file at page load -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
@@ -27,15 +30,26 @@
 			<p>beebeebee</p>
     </div>
 
+		<!-- input form field -->
+		<p><h4>Enter your name for sorting:</h4>
+		<input type="text" id="input"></input></p>
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text -->
+
+		<!-- button to sort user's input name/string -->
+		<p><button id="sortingButton">
+			Click to be assigned a trope!
+		</button></p>
+
 		<!-- output div for access in lab.js -->
     <h4>Output</h4>
     <div id="output">
+			<p>Your assigned trope is:</p> <!-- placeholder; gets replaced by the JS -->
     </div>
 
 		<!-- link to lab.js file -->
 		<div id="lablink">
 			<p>This link opens the lab.js source code:</p>
-			<p><a href="js/lab.js">Lab 11 JavaScript file</a></p>
+			<p><a href="js/lab.js">Lab 12 JavaScript file</a></p>
 		</div>
 
     <!-- IMG -->
