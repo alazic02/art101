@@ -19,8 +19,7 @@ $("#sortingButton").click(function(){
   $("#output").html("<p>Your assigned trope is: " + trope + "</p>");
 });
 
-// function that takes String, counts its letters, and assigns
-// a variable depending on mod 4
+// function that takes String length and assigns a variable depending on mod 4
 function tropeSorter(str) {
   mod = str % 4; // uses % to get remainder with 4
 
