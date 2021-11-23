@@ -39,3 +39,6 @@ function fizzBang () {
     $("#output").append("<p>" + str + "</p>");
   }
 };
+
+// for loop referrenced from Wes's class live coding:
+// https://replit.com/@wmodes/VelvetyBriskNetbsd#index.js
