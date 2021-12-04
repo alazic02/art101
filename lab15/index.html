@@ -17,33 +17,57 @@
     <!-- lab task 1 -->
     <div id="challenges">
       <h3>Challenges</h3>
-      <p>zghsfsdfgsdh</p>
+      <p>I had quite a few issues with this lab but did eventually get it working.
+         My main problem was understanding how AJAX was working, and how to use
+         the API. I still don't fully understand either, but through reading
+         the lecture slides thoroughly and referencing Wes's JSFiddle from class,
+         I was able to understand it enough to complete the lab. One major thing
+         that I still do not completely get is the 'data' key for the AJAX call.
+         Since Wes did not use it in class, and the slides don't fully explain it,
+         my comprehension is a little spotty. However, it wasn't necessary for what
+         I used for the lab.</p>
     </div>
 
     <div id="problems">
       <h3>Problems</h3>
-      <p>ahshfagaf</p>
+      <p>One major problem I had was a 'parseerror' that I was getting when originally
+         trying to use the numbersapi. I wasn't sure what it was or where I was
+         going wrong, as my code had no other errors and looked like Wes's JSFiddle
+         example. After looking on Stackoverflow, though, it seemed to be an issue
+         with incompatible expected data types. In class, we used the key 'dataType'
+         and value of 'json' to tell the program what the data was expected to be.
+         I guess the numbersapi didn't return JSON, or something else was wrong,
+         but removing that line from the AJAX call fixed the error and properly
+         returned the data in both the console and the 'output' div.</p>
+      <p>However, once I thought I was done and pushed everything to GitHub, it
+         stopped working. The numbersapi is hosted on http, and GitHub is https.
+         Since there were incompatible security types, the API data could not be
+         accessed. Luckily, someone in section had shared a dinosaur fact generator
+         that was https, so I was able to quickly redo my code and use that URL instead.
+         It was unfortunate as I had two buttons, one that called a random number fact
+         and one that called a fact about a random date, and I had to scrap both.
+         The unused code is commented out at the bottom of the JS file.</p>
     </div>
 
     <div id="results">
       <h3>Results</h3>
-			<p>shsshsghsfgsdfgs</p>
+			<p>Clicking the button below will load a dinosaur fact from the linked API
+         and add it to the output box. For some reason it doesn't always stay
+         within the boundaries of the div, even though it should.</p>
     </div>
 
 		<!-- output div for access in lab.js -->
     <h4>Output</h4>
 
-    <!-- button for number trivia -->
-    <button id="num-triv">
-      Number Trivia
-    </button>
-    <!-- button for date fact -->
-    <button id="date-fact">
-      Date Factoid
+    <!-- button for API access -->
+    <button id="activate">
+      Dino Fact
     </button>
 
+    <p>
     <div id="output">
     </div>
+    </p>
 
 		<!-- link to lab.js file -->
 		<div id="lablink">
