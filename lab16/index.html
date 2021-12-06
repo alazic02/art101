@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab  16 - JSON and APIs</title>
+	<title>Lab  16 - JSON and APIs (XKCD comic!)</title>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
 					integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 					crossorigin="anonymous"></script> <!-- calls jQuery (minified) -->
@@ -17,17 +17,36 @@
     <!-- lab task 1 -->
     <div id="challenges">
       <h3>Challenges</h3>
-      <p>zghsfsdfgsdh</p>
+      <p>A major challenge I faced was fully understanding what the assignment
+				 meant when it said to save the data to a variable and use said variable
+			 	 to add a section title and make a tag. I was a bit at a loss, but figured
+			 	 out what needed to be done by referencing Wes's JSFiddle from last week.
+			 	 I think my biggest source of confusion came from not really knowing where
+			 	 to run the function that loaded the image and stored all this data. However,
+				 seeing from Wes's example that it was kept all within the successful data
+				 loading portion of the AJAX call, I was able to make it work.</p>
     </div>
 
     <div id="problems">
       <h3>Problems</h3>
-      <p>ahshfagaf</p>
+      <p>One issue I had was understanding what the assigment meant when it
+				 asked us to add an 'alt' and 'title' attributes. I know that this meant
+			 	 for us to add those pieces of information to the image's tag for the
+			 	 HTML; at first, I wasn't able to figure out a way to do this successfully
+			 	 while also loading a non-static image URL becuase attributes in a tag
+			 	 need to be in double quotes. However, it turned out to have a simple
+			 	 fix of using single quotes instead, and making sure to fully enclose
+			 	 each attribut of the image object so that the image could still be shown.
+				 It took a little trial and error, but eventually I got it working. The
+				 whole tag is printed to the console to easily show the alt text.</p>
     </div>
 
     <div id="results">
       <h3>Results</h3>
-			<p>shsshsghsfgsdfgs</p>
+			<p>Below is the output div that displays the most recent XKCD comic. It also
+				 gets and displays the comic's title, and the console prints the entire
+			 	 comic object, its title, and its tag that is appended to the div. The tag
+			 	 also includes the image's title, and the alt text provided in the image object.</p>
     </div>
 
 		<!-- output div for access in lab.js -->
