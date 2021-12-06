@@ -1,0 +1,46 @@
+/*palette from: https://www.schemecolor.com/autumn-special.php*/
+body {
+  background-color: #D04711;
+}
+
+
+h2 {
+  color: #E36005;
+  font-family: Tahoma;
+}
+
+
+h3 {
+  color: #E36005;
+  font-family: Tahoma;
+}
+
+
+h4 {
+  color: #E36005;
+  font-family: Tahoma;
+}
+
+
+p {
+  font-family: "Tahoma";
+  color: #383838;
+  text-indent: "30px";
+  margin-left: "15px";
+}
+
+
+#content {
+  background-color: #FEECD4;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid #A3A901;
+}
+
+#output {
+  background-color: #F2D670;
+  padding: 10px;
+  border-radius: 5px;
+  columns: 125px; /*https://www.w3schools.com/cssref/css3_pr_columns.asp*/
+  column-rule: dotted #E36005;
+}
