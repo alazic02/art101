@@ -1,0 +1,48 @@
+/*palette from: https://www.schemecolor.com/yellow-pink-dull-pastels.php*/
+body {
+  background-color: #DDACB7;
+}
+
+
+h2 {
+  color: #8F2556;
+  font-family: Tahoma;
+}
+
+
+h3 {
+  color: #8F2556;
+  font-family: Tahoma;
+}
+
+
+h4 {
+  color: #8F2556;
+  font-family: Tahoma;
+}
+
+
+p {
+  font-family: "Tahoma";
+  color: #383838;
+  text-indent: "30px";
+  margin-left: "15px";
+}
+
+
+#content {
+  background-color: #FFF7D1;
+  padding: 50px;
+  margin: 20px;
+  border: 15px solid #BA889F;
+}
+
+#output {
+  font-family: "Tahoma";
+  text-align: center;
+  background-color: #E8CFD4;
+  padding-left: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+}
